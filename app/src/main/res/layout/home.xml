@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/tan_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/ahlan_sahlan"
+        android:textColor="@color/primary_dark_color"
+        android:textSize="70sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:textColor="@color/primary_color"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_state"
+        android:padding="15dp"
+        android:text="@string/lets_learn"
+        android:textColor="@drawable/btn_color"
+        android:textSize="30sp"
+        app:fontFamily="sans-serif-thin" />
+
+</LinearLayout>

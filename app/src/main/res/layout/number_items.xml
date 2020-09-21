@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/list_item_height"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:background="@color/tan_background"
+        android:layout_marginRight="16dp"
+        android:layout_height="@dimen/list_item_height"
+        />
+
+    <TextView
+        android:id="@+id/eng_term"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:text="one" />
+
+    <TextView
+        android:id="@+id/miwok_term"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textDirection="anyRtl"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:text="وا حد" />
+
+    <ImageButton
+        android:id="@+id/play_pause"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play_arrow"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_vertical"
+        />
+
+
+</LinearLayout>
+
